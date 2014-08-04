@@ -5,4 +5,10 @@ gem 'sinatra'
 gem 'unicorn'
 gem 'rack-timeout'
 gem 'sucker_punch'
-gem 'tracker_api'
+gem 'octokit'
+
+group :development do
+  gem 'dotenv'
+end
+
+
